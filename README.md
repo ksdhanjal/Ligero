@@ -1,6 +1,6 @@
 # Ligero
 Ligero is an app which is used to control analog LED Strips (in this case SMD 5050) or any other LED strip that uses analog RGB input.
-It is used in conjunction with an HTTP based server which is running on Raspberry Pi.
+It is used in conjunction with an HTTP server ([ligero-server](https://github.com/ksdhanjal/ligero-server)) which is running on Raspberry Pi.
 
 ## Working
 The user selects the desired color for specific LED and the app sends an HTTP request to the server and then it changes it's color.
